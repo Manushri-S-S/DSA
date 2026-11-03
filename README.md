@@ -13,7 +13,7 @@ Daily tracking starts on **2026-11-03**. Historical progress is included in the 
 | Total problems solved | 66 |
 | Active problem-solving days | 35 |
 | Current streak | 1 days |
-| Longest tracked streak | 0 days |
+| Longest tracked streak | 1 days |
 
 ### Daily progress
 
