@@ -1,0 +1,42 @@
+name: Sync DSA Progress
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dsa-progress-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sync public platform data
+        run: python scripts/sync_platforms.py
+        env:
+          LEETCODE_USERNAME: Manushri-S-S
+          CODEFORCES_HANDLE: manu21208shri
+      - name: Regenerate dashboard
+        run: python scripts/update_progress.py
+      - name: Commit dashboard updates
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add progress.csv data/platform_state.json README.md assets/
+            git commit -m "Automated DSA progress update"
+            git push
+          else
+            echo "No progress changes to commit."
+          fi

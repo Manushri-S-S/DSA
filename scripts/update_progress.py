@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Regenerate README statistics and SVG charts from progress.csv."""
-
 import csv
 from datetime import date, timedelta
 from pathlib import Path
@@ -10,10 +9,11 @@ CSV_PATH = ROOT / "progress.csv"
 README_PATH = ROOT / "README.md"
 ASSETS = ROOT / "assets"
 
-# Historical progress before dashboard tracking began
+# Historical progress before daily dashboard tracking began.
 BASELINE_LEETCODE = 54
 BASELINE_CODEFORCES = 11
 BASELINE_ACTIVE_DAYS = 34
+
 
 def load_progress():
     daily = {}
@@ -65,7 +65,6 @@ def svg_chart(title, labels, values, color, line=False):
             f'<text x="28" y="34" fill="#f0f6fc" font-size="20" font-family="Arial">{title}</text>'
             f'<text x="{width/2}" y="{height/2}" text-anchor="middle" fill="#8b949e" font-size="16" font-family="Arial">Add your first entry to progress.csv</text></svg>'
         )
-
     maximum = max(1, max(values))
     count = len(values)
     coords = []
@@ -73,7 +72,6 @@ def svg_chart(title, labels, values, color, line=False):
         x = left + (i + 0.5) * plot_w / count
         y = top + plot_h - (value / maximum) * plot_h
         coords.append((x, y))
-
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
         '<rect width="100%" height="100%" rx="14" fill="#0d1117"/>',
@@ -83,7 +81,6 @@ def svg_chart(title, labels, values, color, line=False):
         y = top + plot_h - tick * plot_h / 4
         parts.append(f'<line x1="{left}" y1="{y:.1f}" x2="{width-right}" y2="{y:.1f}" stroke="#30363d"/>')
         parts.append(f'<text x="{left-10}" y="{y+4:.1f}" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">{maximum*tick/4:g}</text>')
-
     if line:
         pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in coords)
         parts.append(f'<polyline points="{pts}" fill="none" stroke="{color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
@@ -94,7 +91,6 @@ def svg_chart(title, labels, values, color, line=False):
         for x, y in coords:
             bar_h = top + plot_h - y
             parts.append(f'<rect x="{x-bar_w/2:.1f}" y="{y:.1f}" width="{bar_w:.1f}" height="{bar_h:.1f}" rx="3" fill="{color}"/>')
-
     step = max(1, count // 8)
     for i, label in enumerate(labels):
         if i % step == 0 or i == count - 1:
@@ -131,17 +127,14 @@ def main():
 
     (ASSETS / "daily-progress.svg").write_text(svg_chart("Problems solved per day", labels, daily, "#58a6ff"), encoding="utf-8")
     (ASSETS / "cumulative-progress.svg").write_text(svg_chart("Cumulative problems solved", labels, cumulative, "#3fb950", line=True), encoding="utf-8")
-
     stats = {
-    "LeetCode problems solved": str(BASELINE_LEETCODE + total_lc),
-    "Codeforces problems solved": str(BASELINE_CODEFORCES + total_cf),
-    "Total problems solved": str(
-        BASELINE_LEETCODE + BASELINE_CODEFORCES + total_lc + total_cf
-    ),
-    "Active problem-solving days": str(BASELINE_ACTIVE_DAYS + active_days),
-    "Current streak": f"{current} days",
-    "Longest streak": f"{longest} days",
-}
+        "LeetCode problems solved": str(BASELINE_LEETCODE + total_lc),
+        "Codeforces problems solved": str(BASELINE_CODEFORCES + total_cf),
+        "Total problems solved": str(BASELINE_LEETCODE + BASELINE_CODEFORCES + total_lc + total_cf),
+        "Active problem-solving days": str(BASELINE_ACTIVE_DAYS + active_days),
+        "Current streak": f"{current} days",
+        "Longest tracked streak": f"{longest} days",
+    }
     lines = README_PATH.read_text(encoding="utf-8").splitlines()
     for i, line in enumerate(lines):
         for label, value in stats.items():
