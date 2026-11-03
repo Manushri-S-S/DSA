@@ -97,7 +97,7 @@ def svg_chart(title, labels, values, color, line=False):
             x = left + (i + 0.5) * plot_w / count
             parts.append(f'<text x="{x:.1f}" y="{height-22}" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">{label}</text>')
     parts.append("</svg>")
-    return "\\n".join(parts)
+    return "\n".join(parts)
 
 
 def main():
@@ -141,7 +141,7 @@ def main():
         for label, value in stats.items():
             if line.startswith(f"| {label} |"):
                 lines[i] = f"| {label} | {value} |"
-    README_PATH.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+    README_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("Dashboard updated:")
     for label, value in stats.items():
         print(f"  {label}: {value}")
