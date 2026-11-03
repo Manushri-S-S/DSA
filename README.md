@@ -4,16 +4,16 @@ A record of my problem-solving practice in **LeetCode** and **Codeforces**, with
 
 ## Progress dashboard
 
-Tracking starts on **2026-11-03**. Historical solutions are not included. Only problems entered in `progress.csv` from this date count.
+Daily tracking starts on **2026-11-03**. Historical progress is included in the starting baseline: 54 LeetCode problems, 11 Codeforces problems, and 34 LeetCode active days. Daily charts and streaks track activity from the tracking start date onward.
 
 | Metric | Total |
 |---|---:|
-| LeetCode problems solved | 0 |
-| Codeforces problems solved | 0 |
-| Total problems solved | 0 |
-| Active problem-solving days | 0 |
+| LeetCode problems solved | 54 |
+| Codeforces problems solved | 11 |
+| Total problems solved | 65 |
+| Active problem-solving days | 34 |
 | Current streak | 0 days |
-| Longest streak | 0 days |
+| Longest tracked streak | 0 days |
 
 ### Daily progress
 

@@ -10,6 +10,10 @@ CSV_PATH = ROOT / "progress.csv"
 README_PATH = ROOT / "README.md"
 ASSETS = ROOT / "assets"
 
+# Historical progress before dashboard tracking began
+BASELINE_LEETCODE = 54
+BASELINE_CODEFORCES = 11
+BASELINE_ACTIVE_DAYS = 34
 
 def load_progress():
     daily = {}
@@ -129,13 +133,15 @@ def main():
     (ASSETS / "cumulative-progress.svg").write_text(svg_chart("Cumulative problems solved", labels, cumulative, "#3fb950", line=True), encoding="utf-8")
 
     stats = {
-        "LeetCode problems solved": str(total_lc),
-        "Codeforces problems solved": str(total_cf),
-        "Total problems solved": str(total_lc + total_cf),
-        "Active problem-solving days": str(active_days),
-        "Current streak": f"{current} days",
-        "Longest streak": f"{longest} days",
-    }
+    "LeetCode problems solved": str(BASELINE_LEETCODE + total_lc),
+    "Codeforces problems solved": str(BASELINE_CODEFORCES + total_cf),
+    "Total problems solved": str(
+        BASELINE_LEETCODE + BASELINE_CODEFORCES + total_lc + total_cf
+    ),
+    "Active problem-solving days": str(BASELINE_ACTIVE_DAYS + active_days),
+    "Current streak": f"{current} days",
+    "Longest streak": f"{longest} days",
+}
     lines = README_PATH.read_text(encoding="utf-8").splitlines()
     for i, line in enumerate(lines):
         for label, value in stats.items():
