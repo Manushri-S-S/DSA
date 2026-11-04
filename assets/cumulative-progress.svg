@@ -4,15 +4,15 @@
 <line x1="58" y1="266.0" x2="876" y2="266.0" stroke="#30363d"/>
 <text x="48" y="270.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">0</text>
 <line x1="58" y1="211.5" x2="876" y2="211.5" stroke="#30363d"/>
-<text x="48" y="215.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">0.5</text>
+<text x="48" y="215.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">0.75</text>
 <line x1="58" y1="157.0" x2="876" y2="157.0" stroke="#30363d"/>
-<text x="48" y="161.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">1</text>
+<text x="48" y="161.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">1.5</text>
 <line x1="58" y1="102.5" x2="876" y2="102.5" stroke="#30363d"/>
-<text x="48" y="106.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">1.5</text>
+<text x="48" y="106.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">2.25</text>
 <line x1="58" y1="48.0" x2="876" y2="48.0" stroke="#30363d"/>
-<text x="48" y="52.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">2</text>
-<polyline points="262.5,157.0 671.5,48.0" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="262.5" cy="157.0" r="4" fill="#3fb950"/>
+<text x="48" y="52.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">3</text>
+<polyline points="262.5,193.3 671.5,48.0" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="262.5" cy="193.3" r="4" fill="#3fb950"/>
 <circle cx="671.5" cy="48.0" r="4" fill="#3fb950"/>
 <text x="262.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">03 Nov</text>
 <text x="671.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">04 Nov</text>
