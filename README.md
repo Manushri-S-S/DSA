@@ -30,6 +30,7 @@ Daily tracking starts on **2026-11-03**. Historical progress is included in the 
 - `GeeksForGeeks/` — optional practice.
 - `patterns/` — reusable problem-solving patterns and explanations.
 - `Mistakes/` — mistakes, edge cases, and lessons to revisit.
+- `Notes/`-for explaination and implementaion of each data structure
 - `progress.csv` — manual daily log for LeetCode and Codeforces.
 - `scripts/update_progress.py` — regenerates statistics and SVG charts.
 
