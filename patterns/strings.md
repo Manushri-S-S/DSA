@@ -1,7 +1,8 @@
-# Pattern: Counting Distinct Characters Using a Frequency/Seen Array
+{
+    # Pattern: Counting Distinct Characters Using a Frequency/Seen Array
 
-## 1. When to Use
-Use this pattern when you need to:
+    ## 1. When to Use
+    Use this pattern when you need to:
 - Count the number of unique/distinct characters in a string.
 - Check whether a character has appeared before.
 - Track which characters exist in a string without counting duplicates.
@@ -107,3 +108,40 @@ When a problem asks for the number of distinct lowercase letters, think:
 
 ### Limitations
 This direct indexing approach assumes the characters are lowercase English letters (`a`–`z`). For uppercase letters, arbitrary characters, or Unicode text, the mapping or data structure needs to change.
+}
+
+{
+    #pattern:
+    grouping k elements in  a string
+
+    class Solution {
+public:
+    string digitSum(string s, int k) {
+        int n = s.length();
+        string t;
+        while(n>k){
+            for(int i=0;i<n;i=i+k){
+                int j =i,sum=0, l=0;
+                while(l<k && j!= n){
+                    sum += s[j]-'0';
+                    l++;
+                    j++;
+                }
+                t.append(to_string(sum));
+
+            }
+            n = t.length();
+            s = t;
+            t.clear();
+
+        }
+        return s;
+        
+    }
+};
+
+this is lc 2243 digit sum of a string
+
+
+
+}
