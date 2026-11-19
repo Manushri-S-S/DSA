@@ -11,29 +11,30 @@
 <text x="48" y="106.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">3</text>
 <line x1="58" y1="48.0" x2="876" y2="48.0" stroke="#30363d"/>
 <text x="48" y="52.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">4</text>
-<rect x="67.7" y="211.5" width="31.7" height="54.5" rx="3" fill="#58a6ff"/>
-<rect x="118.8" y="157.0" width="31.7" height="109.0" rx="3" fill="#58a6ff"/>
-<rect x="170.0" y="157.0" width="31.7" height="109.0" rx="3" fill="#58a6ff"/>
-<rect x="221.1" y="157.0" width="31.7" height="109.0" rx="3" fill="#58a6ff"/>
-<rect x="272.2" y="266.0" width="31.7" height="0.0" rx="3" fill="#58a6ff"/>
-<rect x="323.3" y="211.5" width="31.7" height="54.5" rx="3" fill="#58a6ff"/>
-<rect x="374.5" y="266.0" width="31.7" height="0.0" rx="3" fill="#58a6ff"/>
-<rect x="425.6" y="211.5" width="31.7" height="54.5" rx="3" fill="#58a6ff"/>
-<rect x="476.7" y="266.0" width="31.7" height="0.0" rx="3" fill="#58a6ff"/>
-<rect x="527.8" y="48.0" width="31.7" height="218.0" rx="3" fill="#58a6ff"/>
-<rect x="579.0" y="266.0" width="31.7" height="0.0" rx="3" fill="#58a6ff"/>
-<rect x="630.1" y="211.5" width="31.7" height="54.5" rx="3" fill="#58a6ff"/>
-<rect x="681.2" y="266.0" width="31.7" height="0.0" rx="3" fill="#58a6ff"/>
-<rect x="732.3" y="211.5" width="31.7" height="54.5" rx="3" fill="#58a6ff"/>
-<rect x="783.5" y="211.5" width="31.7" height="54.5" rx="3" fill="#58a6ff"/>
-<rect x="834.6" y="211.5" width="31.7" height="54.5" rx="3" fill="#58a6ff"/>
-<text x="83.6" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">03 Nov</text>
-<text x="185.8" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">05 Nov</text>
-<text x="288.1" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">07 Nov</text>
-<text x="390.3" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">09 Nov</text>
-<text x="492.6" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">11 Nov</text>
-<text x="594.8" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">13 Nov</text>
-<text x="697.1" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">15 Nov</text>
-<text x="799.3" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">17 Nov</text>
-<text x="850.4" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">18 Nov</text>
+<rect x="67.1" y="211.5" width="29.8" height="54.5" rx="3" fill="#58a6ff"/>
+<rect x="115.3" y="157.0" width="29.8" height="109.0" rx="3" fill="#58a6ff"/>
+<rect x="163.4" y="157.0" width="29.8" height="109.0" rx="3" fill="#58a6ff"/>
+<rect x="211.5" y="157.0" width="29.8" height="109.0" rx="3" fill="#58a6ff"/>
+<rect x="259.6" y="266.0" width="29.8" height="0.0" rx="3" fill="#58a6ff"/>
+<rect x="307.7" y="211.5" width="29.8" height="54.5" rx="3" fill="#58a6ff"/>
+<rect x="355.8" y="266.0" width="29.8" height="0.0" rx="3" fill="#58a6ff"/>
+<rect x="404.0" y="211.5" width="29.8" height="54.5" rx="3" fill="#58a6ff"/>
+<rect x="452.1" y="266.0" width="29.8" height="0.0" rx="3" fill="#58a6ff"/>
+<rect x="500.2" y="48.0" width="29.8" height="218.0" rx="3" fill="#58a6ff"/>
+<rect x="548.3" y="266.0" width="29.8" height="0.0" rx="3" fill="#58a6ff"/>
+<rect x="596.4" y="211.5" width="29.8" height="54.5" rx="3" fill="#58a6ff"/>
+<rect x="644.6" y="266.0" width="29.8" height="0.0" rx="3" fill="#58a6ff"/>
+<rect x="692.7" y="211.5" width="29.8" height="54.5" rx="3" fill="#58a6ff"/>
+<rect x="740.8" y="211.5" width="29.8" height="54.5" rx="3" fill="#58a6ff"/>
+<rect x="788.9" y="211.5" width="29.8" height="54.5" rx="3" fill="#58a6ff"/>
+<rect x="837.0" y="157.0" width="29.8" height="109.0" rx="3" fill="#58a6ff"/>
+<text x="82.1" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">03 Nov</text>
+<text x="178.3" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">05 Nov</text>
+<text x="274.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">07 Nov</text>
+<text x="370.8" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">09 Nov</text>
+<text x="467.0" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">11 Nov</text>
+<text x="563.2" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">13 Nov</text>
+<text x="659.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">15 Nov</text>
+<text x="755.7" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">17 Nov</text>
+<text x="851.9" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">19 Nov</text>
 </svg>
