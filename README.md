@@ -12,7 +12,7 @@ Daily tracking starts on **2026-11-03**. Historical progress is included in the 
 | Codeforces problems solved | 18 |
 | Total problems solved | 84 |
 | Active problem-solving days | 46 |
-| Current streak | 4 days |
+| Current streak | 0 days |
 | Longest tracked streak | 4 days |
 
 ### Daily progress
