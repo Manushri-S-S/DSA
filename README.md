@@ -9,10 +9,10 @@ Daily tracking starts on **2026-11-03**. Historical progress is included in the 
 | Metric | Total |
 |---|---:|
 | LeetCode problems solved | 73 |
-| Codeforces problems solved | 20 |
-| Total problems solved | 93 |
-| Active problem-solving days | 49 |
-| Current streak | 1 days |
+| Codeforces problems solved | 23 |
+| Total problems solved | 96 |
+| Active problem-solving days | 50 |
+| Current streak | 2 days |
 | Longest tracked streak | 4 days |
 
 ### Daily progress
