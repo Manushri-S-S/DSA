@@ -4,45 +4,46 @@
 <line x1="58" y1="266.0" x2="876" y2="266.0" stroke="#30363d"/>
 <text x="48" y="270.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">0</text>
 <line x1="58" y1="211.5" x2="876" y2="211.5" stroke="#30363d"/>
-<text x="48" y="215.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">8</text>
+<text x="48" y="215.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">8.5</text>
 <line x1="58" y1="157.0" x2="876" y2="157.0" stroke="#30363d"/>
-<text x="48" y="161.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">16</text>
+<text x="48" y="161.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">17</text>
 <line x1="58" y1="102.5" x2="876" y2="102.5" stroke="#30363d"/>
-<text x="48" y="106.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">24</text>
+<text x="48" y="106.5" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">25.5</text>
 <line x1="58" y1="48.0" x2="876" y2="48.0" stroke="#30363d"/>
-<text x="48" y="52.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">32</text>
-<polyline points="75.0,259.2 109.1,245.6 143.2,231.9 177.3,218.3 211.4,218.3 245.5,211.5 279.5,211.5 313.6,204.7 347.7,204.7 381.8,177.4 415.9,177.4 450.0,170.6 484.0,170.6 518.1,163.8 552.2,157.0 586.3,150.2 620.4,136.6 654.5,136.6 688.5,136.6 722.6,116.1 756.7,109.3 790.8,109.3 824.9,75.2 859.0,48.0" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="75.0" cy="259.2" r="4" fill="#3fb950"/>
-<circle cx="109.1" cy="245.6" r="4" fill="#3fb950"/>
-<circle cx="143.2" cy="231.9" r="4" fill="#3fb950"/>
-<circle cx="177.3" cy="218.3" r="4" fill="#3fb950"/>
-<circle cx="211.4" cy="218.3" r="4" fill="#3fb950"/>
-<circle cx="245.5" cy="211.5" r="4" fill="#3fb950"/>
-<circle cx="279.5" cy="211.5" r="4" fill="#3fb950"/>
-<circle cx="313.6" cy="204.7" r="4" fill="#3fb950"/>
-<circle cx="347.7" cy="204.7" r="4" fill="#3fb950"/>
-<circle cx="381.8" cy="177.4" r="4" fill="#3fb950"/>
-<circle cx="415.9" cy="177.4" r="4" fill="#3fb950"/>
-<circle cx="450.0" cy="170.6" r="4" fill="#3fb950"/>
-<circle cx="484.0" cy="170.6" r="4" fill="#3fb950"/>
-<circle cx="518.1" cy="163.8" r="4" fill="#3fb950"/>
-<circle cx="552.2" cy="157.0" r="4" fill="#3fb950"/>
-<circle cx="586.3" cy="150.2" r="4" fill="#3fb950"/>
-<circle cx="620.4" cy="136.6" r="4" fill="#3fb950"/>
-<circle cx="654.5" cy="136.6" r="4" fill="#3fb950"/>
-<circle cx="688.5" cy="136.6" r="4" fill="#3fb950"/>
-<circle cx="722.6" cy="116.1" r="4" fill="#3fb950"/>
-<circle cx="756.7" cy="109.3" r="4" fill="#3fb950"/>
-<circle cx="790.8" cy="109.3" r="4" fill="#3fb950"/>
-<circle cx="824.9" cy="75.2" r="4" fill="#3fb950"/>
-<circle cx="859.0" cy="48.0" r="4" fill="#3fb950"/>
-<text x="75.0" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">03 Nov</text>
-<text x="177.3" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">06 Nov</text>
-<text x="279.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">09 Nov</text>
-<text x="381.8" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">12 Nov</text>
-<text x="484.0" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">15 Nov</text>
-<text x="586.3" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">18 Nov</text>
-<text x="688.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">21 Nov</text>
-<text x="790.8" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">24 Nov</text>
-<text x="859.0" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">26 Nov</text>
+<text x="48" y="52.0" text-anchor="end" fill="#8b949e" font-size="11" font-family="Arial">34</text>
+<polyline points="74.4,259.6 107.1,246.8 139.8,233.9 172.5,221.1 205.2,221.1 238.0,214.7 270.7,214.7 303.4,208.3 336.1,208.3 368.8,182.6 401.6,182.6 434.3,176.2 467.0,176.2 499.7,169.8 532.4,163.4 565.2,157.0 597.9,144.2 630.6,144.2 663.3,144.2 696.0,124.9 728.8,118.5 761.5,118.5 794.2,86.5 826.9,60.8 859.6,48.0" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="74.4" cy="259.6" r="4" fill="#3fb950"/>
+<circle cx="107.1" cy="246.8" r="4" fill="#3fb950"/>
+<circle cx="139.8" cy="233.9" r="4" fill="#3fb950"/>
+<circle cx="172.5" cy="221.1" r="4" fill="#3fb950"/>
+<circle cx="205.2" cy="221.1" r="4" fill="#3fb950"/>
+<circle cx="238.0" cy="214.7" r="4" fill="#3fb950"/>
+<circle cx="270.7" cy="214.7" r="4" fill="#3fb950"/>
+<circle cx="303.4" cy="208.3" r="4" fill="#3fb950"/>
+<circle cx="336.1" cy="208.3" r="4" fill="#3fb950"/>
+<circle cx="368.8" cy="182.6" r="4" fill="#3fb950"/>
+<circle cx="401.6" cy="182.6" r="4" fill="#3fb950"/>
+<circle cx="434.3" cy="176.2" r="4" fill="#3fb950"/>
+<circle cx="467.0" cy="176.2" r="4" fill="#3fb950"/>
+<circle cx="499.7" cy="169.8" r="4" fill="#3fb950"/>
+<circle cx="532.4" cy="163.4" r="4" fill="#3fb950"/>
+<circle cx="565.2" cy="157.0" r="4" fill="#3fb950"/>
+<circle cx="597.9" cy="144.2" r="4" fill="#3fb950"/>
+<circle cx="630.6" cy="144.2" r="4" fill="#3fb950"/>
+<circle cx="663.3" cy="144.2" r="4" fill="#3fb950"/>
+<circle cx="696.0" cy="124.9" r="4" fill="#3fb950"/>
+<circle cx="728.8" cy="118.5" r="4" fill="#3fb950"/>
+<circle cx="761.5" cy="118.5" r="4" fill="#3fb950"/>
+<circle cx="794.2" cy="86.5" r="4" fill="#3fb950"/>
+<circle cx="826.9" cy="60.8" r="4" fill="#3fb950"/>
+<circle cx="859.6" cy="48.0" r="4" fill="#3fb950"/>
+<text x="74.4" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">03 Nov</text>
+<text x="172.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">06 Nov</text>
+<text x="270.7" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">09 Nov</text>
+<text x="368.8" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">12 Nov</text>
+<text x="467.0" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">15 Nov</text>
+<text x="565.2" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">18 Nov</text>
+<text x="663.3" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">21 Nov</text>
+<text x="761.5" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">24 Nov</text>
+<text x="859.6" y="298" text-anchor="middle" fill="#8b949e" font-size="10" font-family="Arial">27 Nov</text>
 </svg>
